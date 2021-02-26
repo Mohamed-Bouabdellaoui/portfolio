@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+<!-- ==================
+========side=========== -->
+<div class="parent">
+<aside class="side">
+   <button onclick="show1()" > <img  width="100%" src="image/logo.png" alt=""></button>
+   <button onclick="show1()"> <img  class="importent" width="80%" src="image/home.png" alt=""></button><br><br>
+   <button onclick="show2()"> <img class="importent" width="80%" src="image/about.png" alt=""></button><br><br>
+   <button onclick="show3()"> <img class="importent" width="80%" src="image/skills.png" alt=""></button><br><br>
+   <button onclick="show4()"> <img class="importent" width="80%" src="image/view.png" alt=""></button><br><br>
+   <button onclick="show5()"> <img class="importent" width="80%" src="image/contact.png" alt=""></button>
+   
+
+
+
+
+</aside> 
+<!-- ==================
+========container=========== -->
+<div id="cnt1" class="container">
+
+    <div class="dis">
+    <section class="texart">
+    <h1 >Hi,<br>
+    I'm <span>M</span>ohamed <br>
+    Web Developer.</h1>
+    <p class="light">
+    Front end Developer/frelancer</p>
+    </section>
+</div>
+<div  class="picture">
+    <img class="logoimg" src="image/biglogo.png" alt="">
+</div>
+
+</div>
+
+<div id="cnt2" class="about-parent">
+    <div class="dis">
+        <section class="text2">
+        <h1 >About me:</h1>
+        <p  class="light">
+            I'm a web developer from Tangier , Morocco <br>
+            I’m a hard working and <br> dedicated professionalfront-end  </p>
+        </section>
+    </div>
+    <div class="picture">
+        <img width="70%"  src="image/image profil.png" alt="">
+    </div>
+
+</div>
+<div  id="cnt3" class="skills-parent">
+    <div class="dis">
+        <section class="text2">
+       <img width="35%" src="image/html-5.svg" alt=""><br><br>
+       <img  width="35%" src="image/css.svg" alt=""><br><br>
+       <img width="35%" src="image/js.svg" alt=""><br><br>
+        </section>
+    </div>
+    <div class="picture">
+        <img width="80%"  src="image/skl777.jpg" alt="">
+    </div>
+  
+
+
+</div>
+<div  id="cnt4" class="view-parent">
+    <div class="dis">
+        <section class="text2">
+       <img height="150%" width="140%" src="image/cap2.png" alt="">
+        </section>
+    </div>
+    <div class="picture">
+        <img width="70%" height="50%" src="image/site wibe 1 .png" alt="">
+        <img width="70%" height="50%" src="image/site wibe 2.png" alt="">
+    </div>
+</div>
+<div  id="cnt5" class="contact-parent">
+   
+
+<div class="form5"> <form   action="https://formspree.io/f/moqpovgq"
+    method="POST"> <input type="text" name="name" placeholder="name">
+    <input type="email" name="email" placeholder="email"><br><br>
+    <textarea  class="msg" placeholder="message" name="message" cols="30" rows="10"></textarea><br><br>
+    <button class="btn2" type="submit"> send</button></form>
+  </div></div>
+</div>
+<!-- ==================
+========footer=========== -->
+
+
+<footer class="foot">
+    <img class="line" src="image/Ligne1.png" alt="">
+   <a href=""> <img  class="socialmedia" width="70px" src="image/Groupe 13.png" alt=""></a>
+   <a href="">  <img  width="70px"  src="image/Groupe 15.png" alt=""></a>
+   <a href=""> <img  width="80px"  src="image/Groupe 16.png" alt=""></a>
+    <img class="line"  src="image/Ligne1.png" alt="">
+</footer> 
+<script>
+
+
+
+
+
+
+function show1(){
+
+
+    document.getElementById("cnt1").style.display="flex";
+    document.getElementById("cnt2").style.display="none";
+    document.getElementById("cnt3").style.display="none";
+    document.getElementById("cnt4").style.display="none";
+    document.getElementById("cnt5").style.display="none";
+   
+}
+function show2(){
+
+
+document.getElementById("cnt1").style.display="none";
+document.getElementById("cnt2").style.display="flex";
+document.getElementById("cnt3").style.display="none";
+document.getElementById("cnt4").style.display="none";
+document.getElementById("cnt5").style.display="none";
+
+}
+function show3(){
+
+
+document.getElementById("cnt1").style.display="none";
+document.getElementById("cnt2").style.display="none";
+document.getElementById("cnt3").style.display="flex";
+document.getElementById("cnt4").style.display="none";
+document.getElementById("cnt5").style.display="none";
+
+}
+function show4(){
+
+
+document.getElementById("cnt1").style.display="none";
+document.getElementById("cnt2").style.display="none";
+document.getElementById("cnt3").style.display="none";
+document.getElementById("cnt4").style.display="flex";
+document.getElementById("cnt5").style.display="none";
+
+}
+function show5(){
+
+
+document.getElementById("cnt1").style.display="none";
+document.getElementById("cnt2").style.display="none";
+document.getElementById("cnt3").style.display="none";
+document.getElementById("cnt4").style.display="none";
+document.getElementById("cnt5").style.display="flex";
+
+}
+
+
+
+
+
+</script> 
+</body>
+</html>

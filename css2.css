@@ -1,0 +1,162 @@
+ /* ==================
+======global=============  */
+
+*{
+
+margin: 0;
+padding: 0;
+}
+ /* ==================
+======side+container=============  */
+.parent{
+display: flex;
+
+}
+
+ /* ==================
+======side=============  */
+.side{
+    background-color: #4285f4;
+    border-radius: 0 25px 0 25px ;
+    height: 90vh;
+    width: 7%;
+   
+}
+button{
+    text-decoration: none;
+    background-color: #4285f4;
+    border: none;
+}
+.importent{
+    align-items: center;
+    justify-items: center;
+   
+  
+}
+ /* ==================
+======container=============  */
+.form5{
+    position: relative;
+    left: 100%;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+margin-top: auto;
+margin-bottom: auto;
+ 
+}
+
+.msg{
+    width: 100%; 
+   
+}
+
+.btn2{
+    float: right  ;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 93%; 
+   
+}
+.about-parent{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 93%; 
+    display: none;
+}
+.skills-parent{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 93%; 
+    display: none;
+}
+.view-parent{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 93%;
+    display: none;
+  
+}
+.contact-parent{
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .container {
+      flex-direction:row;
+    }
+    .line{
+        display: none;
+    }
+    .socialmedia{
+    margin-left: 40%;
+   
+    }
+    .picture{
+        width: 30px;
+    }
+  }
+.dis{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.picture{
+    width: 50%;
+    height: 100%;
+}
+.logoimg{
+    width: 100%;
+
+}
+.texart{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 50%;
+    font-size: 27px;
+     margin: auto;
+     margin-top: 25%; 
+}
+.text2{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 50%;
+    font-size: 25px;
+     margin: auto;
+     margin-top: 5%; 
+
+}
+
+
+
+span{
+    color: #4285f4;
+  
+}
+
+ /* ==================
+======foot=============  */
+.foot{
+    
+    height: 10vh;
+
+}
+.line{
+    width: 40%;
+    margin-bottom: 25px;
+    
+}
+
