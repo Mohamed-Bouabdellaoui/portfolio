@@ -24,8 +24,10 @@ display: flex;
 }
 button{
     text-decoration: none;
+    color: white;
     background-color: #4285f4;
     border: none;
+    outline: none;
 }
 .importent{
     align-items: center;
@@ -36,11 +38,18 @@ button{
  /* ==================
 ======container=============  */
 .form5{
-    position: relative;
-    left: 100%;
-width: 100%;
-margin-right: auto;
-margin-left: auto;
+   position: absolute;
+   font-family: 'Anton', sans-serif;
+   
+   top: 30%;
+   right: 30%;
+   left: 30%;
+   width: 40%;
+ 
+  
+  
+   
+
 margin-top: auto;
 margin-bottom: auto;
  
@@ -139,6 +148,10 @@ margin-bottom: auto;
      margin-top: 5%; 
 
 }
+input{
+    width: 100%;
+   
+}
 
 
 
@@ -146,6 +159,12 @@ span{
     color: #4285f4;
   
 }
+::placeholder {
+   
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: black;
+   
+  }
 
  /* ==================
 ======foot=============  */
